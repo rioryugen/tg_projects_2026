@@ -1,0 +1,14 @@
+Units: 638           Days: 32
+Energy Charges 4917.70
+Fixed Charges      84.60
+Customer Charges 140.00
+Electricity Duty 38.28
+Interest on ED      0.08
+Surcharge          25.00
+F8A/FCA Charges     0.00
+Subsidy               0.00                   3%
+Adjustment           0.00
+Interest on CD      0.00
+Loss/Galn          0.34
+Bill Amount      5206.00
+Total Due       5201.00

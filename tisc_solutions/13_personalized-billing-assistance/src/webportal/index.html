@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billudu — మీ కరెంట్ బిల్లు వివరణ</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --fg:#e2e8f0; --accent:#fbbf24; --mut:#94a3b8; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, "Noto Sans Telugu", sans-serif; background:var(--bg); color:var(--fg); }
+  main { max-width: 720px; margin: 0 auto; padding: 16px; }
+  h1 { color: var(--accent); margin: 8px 0 4px; }
+  .card { background:var(--card); border-radius:12px; padding:16px; margin:12px 0; }
+  button, label.btn { background:var(--accent); color:#111; border:0; border-radius:8px; padding:10px 16px; font-weight:600; cursor:pointer; display:inline-block; margin:4px 4px 4px 0; }
+  button.sec { background:#334155; color:var(--fg); }
+  pre { white-space: pre-wrap; margin:0; font-family: inherit; line-height:1.6; }
+  .mut { color: var(--mut); font-size: .9rem; }
+  input[type=file] { display:none; }
+  #preview { max-width:100%; max-height:260px; border-radius:8px; margin-top:8px; }
+  #fields { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:8px; margin:8px 0; }
+  #fields label { display:flex; flex-direction:column; font-size:.85rem; color:var(--mut); }
+  #fields input { background:#0b1220; color:var(--fg); border:1px solid #334155; border-radius:6px; padding:6px; font-size:1rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Billudu · బిల్లుడు</h1>
+  <p class="mut">Upload a photo or PDF of your TGSPDCL bill. Reading and explanation happen entirely on this device; nothing is uploaded.</p>
+
+  <div class="card">
+    <label class="btn">📷 Photo / PDF
+      <input id="file" type="file" accept="image/*,application/pdf" capture="environment">
+    </label>
+    <button class="sec" id="manual">Enter numbers manually</button>
+    <p id="status" class="mut" role="status"></p>
+    <img id="preview" alt="Bill preview" hidden>
+    <div id="review" hidden>
+      <h3>Check the numbers</h3>
+      <div id="fields"></div>
+      <button id="analyze">Explain my bill</button>
+      <button class="sec" id="clear">Clear history</button>
+    </div>
+  </div>
+
+  <div id="result" hidden>
+    <div class="card"><h2>తెలుగు వివరణ</h2><pre id="te"></pre><button class="sec" id="speak">🔊 Listen</button></div>
+    <div class="card"><h2>English</h2><pre id="en"></pre></div>
+    <div class="card" id="changeCard" hidden><h2>Why it changed</h2><pre id="change"></pre></div>
+    <div class="card" id="fcCard" hidden><h2>Next bill estimate</h2><pre id="fc"></pre></div>
+  </div>
+  <p class="mut">Estimates are not official. Verify with your discom.</p>
+</main>
+<script type="module" src="./dist/app.js"></script>
+</body>
+</html>

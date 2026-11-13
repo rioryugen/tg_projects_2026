@@ -1,0 +1,17 @@
+Units: 324                              Days: 31
+Energy Charges                         2006.00
+Fixed Charges                           50.00
+customer Charges                     120.00
+Electricity Duty                              19.44
+Interest on ED                               0.00
+Surcharge                                  0.00
+ACD Surcharge                           0.00
+FSA/FCA Charges                           0.00
+True-Up Charges                         9.00
+(2022-23 30 @.3)
+interest on SD                               -0.00
+Adjustment                                0.00
+| oss/Gain                                 -0.44
+3ill Amount                           2204.00
+Total Due                           2204.00
+Due Date                               16-Nov-2026

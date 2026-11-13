@@ -1,0 +1,15 @@
+Bllled Unlts:1058 Days:31
+Energy Charges 11048.00       :           i
+Fixed Charges 2100.00
+Customer Charges 160.00
+Electricity Duty 63.48         !
+Interest on ED     0.04                 3
+Surcharge        150.00
+ACD Surcharge      0.00
+FSA/FCA Charges    0.00           fi
+Subsidy             0.00
+Adjustment         0.00
+Interest on CD     0.00
+Loss/Gain         0.48
+pill Amount    13522.00
+Total Due      13522. 00

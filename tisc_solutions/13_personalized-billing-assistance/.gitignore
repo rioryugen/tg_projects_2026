@@ -1,0 +1,9 @@
+node_modules/
+.samples/
+.ocr/
+.ocr-paddle/
+testing/
+src/webportal/dist/
+src/android/app/src/main/assets/
+src/apple/App/Resources/
+

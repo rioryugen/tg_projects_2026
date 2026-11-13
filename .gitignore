@@ -1,0 +1,8 @@
+integrations/
+**/node_modules/
+**/build/
+**/.gradle/
+**/local.properties
+.vscode/
+*.log
+

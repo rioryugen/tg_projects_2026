@@ -1,0 +1,22 @@
+name: Billudu
+options:
+  bundleIdPrefix: in.gov.telangana
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  Billudu:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Billudu
+        NSCameraUsageDescription: Billudu scans your electricity bill on this device. Images never leave your phone.
+        UILaunchScreen: {}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: in.gov.telangana.billudu
+        SWIFT_VERSION: "5.9"
+        GENERATE_INFOPLIST_FILE: NO

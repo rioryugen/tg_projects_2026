@@ -1,0 +1,8 @@
+# Integrations in d:\git\tg_projects\integrations
+
+- **ecc** (`affaan-m/ecc`): cloned. Installed via `install.sh --profile full` (bash unavailable on this box) → manual PowerShell equivalent: copy skills/agents/instructions to `.github/*`, merge rules, write `.github/ecc-install-state.json`. ~50 skill folders now in `.github/skills`.
+- **rea** (`morluto/rea`): cloned. Needs Node ≤23 (system v24 breaks it). Portable Node 22.23.5 at `integrations/node22/node.exe`; MCP server entry pins it via `--node --exec-argv0`. REA runs as MCP in VS Code config, not as a CLI on PATH.
+- **billion-context** (`ranxianglei/billion-context`): cloned + deps installed. Runs: `node bin/bc.js status --workspace-root d:\git\tg_projects` (v1.3.0). No server process needed — it's an index/CLI.
+- **humanizer** (`blader/humanizer`, v4.0.0, MIT): cloned. Installed per README into `.github/skills/humanizer` (VS Code skill convention: one folder + SKILL.md). Validated with `scripts/validate-package.py`. 26 AI-writing patterns; core rule: rewrite must have no em/en dashes unless the writer's own sample uses them.
+- **hf-papers**: local corpus of HF Daily Papers (`data/daily/YYYY-MM-DD.json` raw, `papers.jsonl` normalized ~470 papers, `INDEX.md`). Built by `build.mjs`; refresh with `node build.mjs --from 2026-05-13`. API: `https://huggingface.co/api/daily_papers?date=YYYY-MM-DD` (no auth).
+- **HF MCP server**: registered in `.vscode/mcp.json` as `"hf-mcp-server"` type http → `https://huggingface.co/mcp?login`. Needs window reload + OAuth sign-in by user. Presets appended with `&`: `bouquet=files` (read-only, recommended), `mix=jobs,sandbox`, `gradio=victor/websearch`, `no_image_content=true`. Never put a token in the URL.

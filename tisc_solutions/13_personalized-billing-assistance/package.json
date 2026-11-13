@@ -1,0 +1,20 @@
+{
+  "name": "billudu",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Billudu: on-device electricity bill explainer (TISC 2026 Challenge 13)",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/shared/engine.test.mjs src/shared/bridge.test.mjs",
+    "build": "node scripts/build-web.mjs",
+    "serve": "node src/serve.mjs",
+    "paddle": "node scripts/run-paddle.mjs"
+  },
+  "dependencies": {
+    "@gutenye/ocr-browser": "^1.4.9",
+    "@gutenye/ocr-node": "^1.4.9",
+    "esbuild": "^0.28.2",
+    "onnxruntime-web": "^1.31.1",
+    "pdfjs-dist": "^6.5.438"
+  }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "num": 1,
+    "title": "Solar-Powered Irrigation for Every Farm",
+    "slug": "solar-powered-irrigation-for-every-farm",
+    "sector": "Energy, Agriculture",
+    "summary": "Develop an affordable solar pump or retrofit kit for deep borewells that is 30% cheaper, with theft-resistant panels and tamper-proof grid metering.",
+    "impact": "Reduce the ₹14,000 crore annual free-power burden.",
+    "problem": "Telangana's agricultural irrigation relies heavily on grid-powered pumps. Approximately 29 lakh agricultural pump connections and an estimated annual free-power subsidy of ₹14,000 crore create a substantial recurring burden for the state. Existing solar alternatives are costly, operate primarily during daylight and face theft and service challenges. Telangana's deep hard-rock borewells add technical demands, while free grid electricity gives farmers little incentive to switch.",
+    "solution": "Develop 3–10 HP affordable solar or hybrid pumps, including retrofits for existing motors. Target at least 30% lower costs, metered grid backup and permitted surplus export, tamper-resistant energy accounting, dry-run and voltage protection, groundwater metering, theft-resistant installation, GPS tagging and dependable service.",
+    "expectedImpact": "Reduce subsidy expenditure while providing farmers reliable irrigation, protecting groundwater and supporting clean-energy adoption."
+  },
+  {
+    "num": 2,
+    "title": "Safer Food in Residential Hostels",
+    "slug": "safer-food-in-residential-hostels",
+    "sector": "Welfare Departments, Food Safety",
+    "summary": "Rapid food-adulteration test kits and AI-enabled kitchen hygiene monitoring systems.",
+    "impact": "Improve food safety across all welfare hostels.",
+    "problem": "Telangana's residential schools and hostels are important to educational access for rural and underserved students. Food-poisoning incidents expose the limits of periodic manual checks across large institutional kitchen networks. Authorities need continuous, affordable safeguards for food quality, hygiene and meal delivery.",
+    "solution": "Provide rapid food adulteration and spoilage testing kits, supported by AI-assisted kitchen hygiene monitoring and meal-service compliance checks.",
+    "expectedImpact": "Improve student safety, detect food risks earlier and strengthen accountability in hostel operations."
+  },
+  {
+    "num": 3,
+    "title": "Protecting Lakes and Government Land",
+    "slug": "protecting-lakes-and-government-land",
+    "sector": "Revenue, Municipal Administration, Irrigation",
+    "summary": "Satellite-based monitoring systems that detect new encroachments and generate monthly alerts.",
+    "impact": "Protect valuable government land, lakes and public assets.",
+    "problem": "Rapid urbanisation, particularly around Hyderabad, increases pressure on lakes, Full Tank Level boundaries and valuable government land. Encroachments may be detected only after construction has advanced, making intervention harder. Fragmented records and infrequent inspections constrain timely action, while lake loss affects flood resilience and groundwater recharge.",
+    "solution": "Use monthly satellite change detection linked to land records and legally defined boundaries, with time-stamped evidence and alerts for new construction or land-use changes.",
+    "expectedImpact": "Protect public assets and water bodies, improve early enforcement and strengthen environmental governance."
+  },
+  {
+    "num": 4,
+    "title": "Potholes, Fixed for Good",
+    "slug": "potholes-fixed-for-good",
+    "sector": "Roads & Buildings, Municipal Administration",
+    "summary": "Vehicle-mounted cameras for automated pothole mapping and a durable repair mix that survives the monsoon.",
+    "impact": "Safer roads, faster repairs and reduced maintenance expenditure.",
+    "problem": "Roads in Hyderabad and other Telangana urban centres face heavy traffic, monsoon rainfall and repeated deterioration. Damage is often identified through complaints or manual inspection, and short-lived repairs increase costs and safety risks. A systematic approach is needed to locate, prioritise and permanently address road defects.",
+    "solution": "Combine automated pothole mapping through cameras on buses and municipal vehicles with durable, economical cold-mix or other monsoon-resistant repair materials.",
+    "expectedImpact": "Improve road safety and mobility, shorten repair times and reduce recurring maintenance expenditure."
+  },
+  {
+    "num": 5,
+    "title": "Needle-Free Anaemia Screening",
+    "slug": "needle-free-anaemia-screening",
+    "sector": "Health, Women Development & Child Welfare",
+    "summary": "A handheld haemoglobin meter that Anganwadi workers and ANMs can use.",
+    "impact": "Mass screening of pregnant women and adolescent girls.",
+    "problem": "Anaemia among pregnant women and adolescent girls remains a public-health priority in Telangana. Blood-based screening requires trained staff, consumables and repeat visits, which can constrain coverage in rural and underserved areas. Anganwadi centres and frontline health workers offer an important channel for more accessible screening.",
+    "solution": "Develop a portable, affordable, clinically validated non-invasive haemoglobin screening device usable by ANMs and Anganwadi workers, with appropriate follow-up and referral workflows.",
+    "expectedImpact": "Expand screening coverage, identify risk earlier and support preventive maternal and adolescent healthcare."
+  },
+  {
+    "num": 6,
+    "title": "Every Child Reads: Telugu AI Assessment",
+    "slug": "every-child-reads-telugu-ai-assessment",
+    "sector": "School Education",
+    "summary": "An AI-enabled Telugu reading assessment that identifies reading levels and recommends personalised practice.",
+    "impact": "Better foundational literacy in every government school.",
+    "problem": "Foundational literacy is a priority for Telangana schools, but periodic paper assessments can provide limited, delayed feedback on individual reading gaps. Teachers managing varied learning levels need more frequent and actionable insights, including for Telugu and English reading proficiency.",
+    "solution": "Build a voice-enabled Telugu and English reading assessment that scores proficiency promptly and recommends personalised practice and teacher interventions.",
+    "expectedImpact": "Support timely teaching interventions and measurable gains in foundational literacy."
+  },
+  {
+    "num": 7,
+    "title": "Mapping Every Crop, Every Season",
+    "slug": "mapping-every-crop-every-season",
+    "sector": "Agriculture, Revenue",
+    "summary": "Satellite- and app-based crop mapping at survey-number level, ready within weeks of sowing.",
+    "impact": "Better agricultural planning, procurement, insurance and scheme delivery.",
+    "problem": "Telangana's agricultural planning depends on timely crop booking at land-parcel level. Manual collection can be slow or inaccurate, affecting procurement, insurance, input supply and scheme administration. Diverse seasonal cropping patterns require rapid verification soon after sowing.",
+    "solution": "Identify crops at survey-number level from satellite imagery, verified through farmer-facing mobile workflows, with early crop-stress signals where feasible.",
+    "expectedImpact": "Improve crop records, procurement planning, insurance integrity and agricultural decision-making."
+  },
+  {
+    "num": 8,
+    "title": "Network Mapping, Sectionalizing and Load Switching",
+    "slug": "network-mapping-sectionalizing-and-load-switching",
+    "sector": "Energy",
+    "summary": "AI maps the feeder network, models sectionalising and load-switching options, and ranks where to add DTRs, bifurcate feeders or upgrade conductors.",
+    "impact": "Fewer overloaded DTRs and evidence-based investment decisions.",
+    "problem": "Telangana's distribution networks serve fast-growing urban neighbourhoods, industrial loads and dispersed rural communities. Feeder configurations, distribution transformer (DTR) loading and network connectivity can change as demand expands. Incomplete or fragmented network maps make it difficult for utilities to identify overloaded DTRs, assess feeder bifurcation and plan safe switching or conductor upgrades. Better network intelligence is needed to direct investment where it will improve reliability most.",
+    "solution": "Develop AI-enabled feeder-network mapping and modelling that evaluates sectionalising and load-switching options, identifies overloaded assets and ranks where additional DTRs, feeder bifurcation or conductor upgrades are needed.",
+    "expectedImpact": "Fewer overloaded DTRs, more reliable distribution and evidence-based network investment decisions."
+  },
+  {
+    "num": 9,
+    "title": "Drone Based Monitoring",
+    "slug": "drone-based-monitoring",
+    "sector": "Energy",
+    "summary": "Drones survey feeders, lines and substations. AI detects cracks, sag, corrosion, vegetation and thermal hotspots, and ranks them by severity.",
+    "impact": "Faster grid asset inspection and prioritised field action.",
+    "problem": "Telangana's power lines, feeders and substations extend across urban, industrial and rural terrain. Physical inspection of this dispersed infrastructure is time-consuming, and defects such as conductor sag, corrosion, vegetation encroachment and thermal hotspots may be missed until they threaten service continuity. Utilities need faster, more consistent condition assessments and a way to prioritise field attention by severity.",
+    "solution": "Use drone surveys of feeders, lines and substations, with AI analysis to detect cracks, sag, corrosion, vegetation and thermal hotspots and rank identified defects by severity.",
+    "expectedImpact": "Faster grid-asset inspections and better prioritisation of field maintenance and corrective action."
+  }
+]

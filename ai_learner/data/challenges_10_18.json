@@ -1,0 +1,101 @@
+[
+  {
+    "num": 10,
+    "title": "Solar Substation Potential Assessment",
+    "slug": "solar-substation-potential-assessment",
+    "sector": "Energy",
+    "summary": "AI assesses solar potential at each substation using land availability, load profile and radiation data, then prioritises viable sites.",
+    "impact": "High-potential solar sites identified and prioritised.",
+    "problem": "Telangana is seeking to expand solar generation while making effective use of available electricity infrastructure. However, the suitability of land near substations varies with space availability, local load characteristics and solar irradiation. Without a comparable, data-driven assessment, identifying viable locations and prioritising investments can be slow and inconsistent.",
+    "solution": "Develop an AI-based assessment of solar potential at individual substations using land availability, load profiles and solar radiation data to rank viable locations.",
+    "expectedImpact": "High-potential solar sites identified and prioritised to support more informed renewable-energy planning."
+  },
+  {
+    "num": 11,
+    "title": "Material Quality Inspection and Store Delivery",
+    "slug": "material-quality-inspection-and-store-delivery",
+    "sector": "Energy",
+    "summary": "Stores officers capture material photographs and measurements. AI validates quality against purchase-order specifications from SAP.",
+    "impact": "Quality verified before materials are accepted into stores.",
+    "problem": "Electricity infrastructure expansion and maintenance depend on reliable procurement and timely acceptance of materials. Telangana's utility stores handle equipment and components that must meet purchase-order specifications; manual checks against delivery records and technical requirements can be labour-intensive and inconsistent. Weak visibility at receipt can allow nonconforming materials into inventory and affect downstream project quality.",
+    "solution": "Enable store officers to capture photographs and measurements of delivered materials and use AI to validate quality and conformity against purchase-order specifications recorded in SAP.",
+    "expectedImpact": "Material quality verified before acceptance into utility stores, reducing avoidable defects and procurement risks."
+  },
+  {
+    "num": 12,
+    "title": "Revenue Assurance Analytics",
+    "slug": "revenue-assurance-analytics",
+    "sector": "Energy",
+    "summary": "AI works across billing, metering, collections, GIS and SCADA data to detect theft, flag faulty meters and surface weak collection areas.",
+    "impact": "Lower losses, healthier meters and better collections.",
+    "problem": "For Telangana's electricity distribution utilities, sound revenue collection and energy accounting are important to financial sustainability. Relevant evidence is spread across billing, metering, collections, GIS and SCADA systems, making it difficult to identify theft, malfunctioning meters and geographically concentrated collection weaknesses. Integrated analytics can help utilities distinguish unusual patterns and direct verification teams to priority cases.",
+    "solution": "Build AI analytics across billing, metering, collections, GIS and SCADA data to detect potential theft, flag faulty meters and identify areas with weak collections.",
+    "expectedImpact": "Lower commercial losses, healthier metering systems and improved collection performance."
+  },
+  {
+    "num": 13,
+    "title": "Personalized Billing Assistance",
+    "slug": "personalized-billing-assistance",
+    "sector": "Energy",
+    "summary": "A consumer photographs an electricity bill. AI explains every charge in Telugu, analyses monthly consumption and predicts the next bill.",
+    "impact": "Clearer bills and better-informed consumers.",
+    "problem": "Electricity bills can be difficult for Telangana consumers to interpret, especially when charges, consumption changes and tariff components are not readily understood. Consumers may also struggle to anticipate monthly expenses or identify why a bill differs from previous months. Accessible explanations in Telugu could improve transparency and reduce avoidable service queries.",
+    "solution": "Enable consumers to photograph an electricity bill and receive an AI-generated explanation of each charge in Telugu, analysis of monthly consumption and a prediction of the next bill.",
+    "expectedImpact": "Clearer electricity bills, better-informed consumers and improved understanding of energy use."
+  },
+  {
+    "num": 14,
+    "title": "Auto Connection Cost Estimator",
+    "slug": "auto-connection-cost-estimator",
+    "sector": "Energy",
+    "summary": "A consumer enters GPS location and required load. AI maps the nearest pole, generates the bill of quantities and estimates the cost through a bilingual bot.",
+    "impact": "Faster, transparent new-connection estimates.",
+    "problem": "Consumers seeking new electricity connections in Telangana need clear information on likely connection requirements and costs. Estimation can depend on the requested load, distance to nearby poles and the quantities of materials and work required. Manual or opaque estimation processes can create uncertainty and additional follow-up for applicants.",
+    "solution": "Build a bilingual AI-assisted estimator where a consumer enters GPS location and required load; the system maps the nearest pole, generates a bill of quantities and estimates connection cost through a conversational interface.",
+    "expectedImpact": "Faster, more transparent and consistent estimates for new electricity connections."
+  },
+  {
+    "num": 15,
+    "title": "Project Execution Monitoring",
+    "slug": "project-execution-monitoring",
+    "sector": "Energy",
+    "summary": "AI risk-scores projects on progress, cost, timeline and contractor signals, pulls status from SAP and raises slippage alerts early.",
+    "impact": "Delays flagged before deadlines are missed.",
+    "problem": "Telangana's energy utilities undertake infrastructure projects involving multiple contractors, milestones and budgets. When project updates, cost data and contractor performance signals are fragmented, emerging delays may become visible only after key milestones are missed. Early identification of execution risks can support better oversight and corrective action.",
+    "solution": "Develop AI-based project risk scoring using progress, cost, timeline and contractor signals; pull project status from SAP and issue early slippage alerts.",
+    "expectedImpact": "Project delays and execution risks flagged before deadlines are missed, improving delivery oversight."
+  },
+  {
+    "num": 16,
+    "title": "DER and Rooftop-Solar Management",
+    "slug": "der-and-rooftop-solar-management",
+    "sector": "Energy",
+    "summary": "Forecasts solar generation and net export, and estimates how much more rooftop or KUSUM solar each feeder and DTR can absorb safely.",
+    "impact": "Data-driven net-meter clearance, with saturated DTRs flagged in advance.",
+    "problem": "The expansion of rooftop solar and other distributed energy resources (DER) changes power flows on Telangana's distribution feeders. Local generation and net export vary with sunlight and consumer demand, while feeders and distribution transformers have practical limits on how much additional solar they can absorb safely. Utilities need feeder-level forecasting to manage growth without compromising network reliability.",
+    "solution": "Forecast solar generation and net export, estimate how much additional rooftop or PM-KUSUM solar each feeder and DTR can safely accommodate, and flag likely saturation in advance.",
+    "expectedImpact": "Data-driven net-metering clearance and earlier identification of distribution transformers approaching solar hosting limits."
+  },
+  {
+    "num": 17,
+    "title": "Storm / Weather Outage Prediction and Crew Dispatch",
+    "slug": "storm-weather-outage-prediction-and-crew-dispatch",
+    "sector": "Energy",
+    "summary": "Predicts likely fault locations ahead of bad weather from outage history and forecasts, then pre-positions and sequences restoration crews.",
+    "impact": "Better SAIDI/SAIFI and faster restoration during monsoon and high winds.",
+    "problem": "Monsoon storms, strong winds and other severe weather can interrupt electricity supply across Telangana. Utilities must anticipate which sections of the network are most exposed and position field teams before faults occur. Reactive dispatch can lengthen restoration times and increase disruption for households, businesses and essential services.",
+    "solution": "Combine weather forecasts and outage history to predict likely fault locations ahead of bad weather, then pre-position and sequence restoration crews.",
+    "expectedImpact": "Improved outage duration and frequency performance (SAIDI/SAIFI) and faster restoration during monsoon storms and high winds."
+  },
+  {
+    "num": 18,
+    "title": "Predictive Maintenance / Asset Health",
+    "slug": "predictive-maintenance-asset-health",
+    "sector": "Energy",
+    "summary": "Flags DTRs and feeders likely to fail from loading patterns and failure history, using repair data already in SAP PM.",
+    "impact": "Fewer unplanned failures and longer asset life.",
+    "problem": "Distribution transformers (DTRs) and feeders across Telangana operate under changing load conditions and may experience recurring stress or deterioration. Maintenance teams have repair and failure records, including information already held in SAP PM, but these records are not always translated into forward-looking risk assessments. Identifying assets likely to fail can help utilities intervene before interruptions occur.",
+    "solution": "Predict DTR and feeder failure risk from loading patterns and historical failures, using repair and maintenance data already available in SAP Plant Maintenance (SAP PM).",
+    "expectedImpact": "Fewer unplanned failures, longer asset life and more targeted preventive maintenance."
+  }
+]
